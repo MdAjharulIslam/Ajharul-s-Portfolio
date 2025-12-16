@@ -53,7 +53,7 @@ import chat from './assets/work_logo/chatApp.png';
 import cofee from './assets/work_logo/cofee.jpg';
 import ecom from './assets/work_logo/ecom.png';
 import grocery from './assets/work_logo/grocery.png';
-import journalism from './assets/work_logo/journalism.jpg';
+import journalism from './assets/work_logo/Journalism.jpg';
 import location from './assets/work_logo/location_t.png';
 import netflix from './assets/work_logo/netflix.jpg';
 
