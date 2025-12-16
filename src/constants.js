@@ -180,19 +180,21 @@ export const SkillsInfo = [
       img: northern,
       school: "Northern University Bangladesh",
       date: "Sept 2023 - current",
-      grade: "3.70 CGPA",
+      grade: "on going",
       desc: "I have completed my BSc in Computer Science and Engineering from Northern University Bangladesh. During my time at NUB, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Northern University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "BSc in Computer Science and Engineering",
     },
     {
       id: 2,
       img: tarail,
-      school: "Tarail muktijoddha govt college",
+      school: "Tarail Muktijoddha Govt College",
       date: "Sept 2020 - Dece 2022",
-      grade: "4.50 GPA",
+      grade: "5.00 GPA",
       desc: "I have completed my Collage Degree in Science Tarail muktijoddha govt college. During my College, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at college has been instrumental in shaping my technical abilities and professional growth.",
       degree: "HSC in Science",
     },
+    
+      
   ];
   
   export const projects = [
