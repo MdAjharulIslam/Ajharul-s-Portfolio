@@ -63,7 +63,7 @@ export const SkillsInfo = [
   {
     title: 'Frontend',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
+      { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
       { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
