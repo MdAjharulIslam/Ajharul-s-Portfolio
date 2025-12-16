@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
-
+ 
   // Detect scroll and change navbar background
   useEffect(() => {
     const handleScroll = () => {
@@ -35,6 +35,11 @@ const Navbar = () => {
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
   ];
+    const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setActiveSection("");
+    setIsOpen(false);
+  };
 
   return (
     <nav
@@ -42,9 +47,12 @@ const Navbar = () => {
         isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="text-white py-5 flex justify-between items-center">
+      <div className="text-white py-5 flex justify-between items-center" >
+      
         {/* Logo */}
-        <div className="text-lg font-semibold cursor-pointer">
+        <div className="text-lg font-semibold cursor-pointer"
+        onClick={scrollToTop}
+        >
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">Ajharul</span>
           <span className="text-[#8245ec]">/</span>
