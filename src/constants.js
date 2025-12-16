@@ -57,7 +57,43 @@ import journalism from './assets/work_logo/Journalism.jpg';
 import location from './assets/work_logo/location_t.png';
 import netflix from './assets/work_logo/netflix.jpg';
 
+export const skill = [
+      { name: 'HTML', logo: htmlLogo }, 
+      { name: 'CSS', logo: cssLogo },
+      { name: 'SASS', logo: sassLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'React JS', logo: reactjsLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Redux', logo: reduxLogo },
+      { name: 'Next JS', logo: nextjsLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'GSAP', logo: gsapLogo },
+      { name: 'Material UI', logo: materialuiLogo },
+      { name: 'Bootstrap', logo: bootstrapLogo },
+       { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Firebase', logo: firebaseLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Rest API', logo: rest },
+      { name: 'Socket.io', logo: socket },
+      { name: 'Oauth', logo: Oauth },
+      { name: 'JWT', logo: jwt },
+      { name: 'C', logo: cLogo },
+      { name: 'C++', logo: cppLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
+       { name: 'Git', logo: gitLogo },
+      { name: 'GitHub', logo: githubLogo },
+      { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Postman', logo: postmanLogo },
+      { name: 'Compass', logo: mcLogo },
+      { name: 'Vercel', logo: vercelLogo },
+      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Figma', logo: figmaLogo },
 
+]
 
 export const SkillsInfo = [
   {
@@ -75,6 +111,7 @@ export const SkillsInfo = [
       { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+
       
     ],
   },
