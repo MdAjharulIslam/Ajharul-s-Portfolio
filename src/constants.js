@@ -56,7 +56,7 @@ import grocery from './assets/work_logo/grocery.png';
 import journalism from './assets/work_logo/Journalism.jpg';
 import location from './assets/work_logo/location_t.png';
 import netflix from './assets/work_logo/netflix.jpg';
-
+import spylt from './assets/work_logo/spylt.png'
 export const skill = [
       { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
@@ -288,6 +288,18 @@ export const SkillsInfo = [
       github: "https://github.com/MdAjharulIslam/Netflix2.o",
       webapp: "https://netflix2-o.onrender.com",
     },
+    {
+      id: 5,
+      title: "MilkySpylt",
+      description:
+       "MilkySpylt is an Awwwards-inspired, animation-driven web experience designed and developed to showcase premium motion design and scroll-based storytelling. Built with React 19, Tailwind CSS v4, and GSAP, it features cinematic animations, smooth timelines, and fully responsive performance-focused interactions.",
+
+        image: spylt,
+      tags: ["JavaScript", "React JS", "Gsap", "Tailwind CSS"],
+      github: "https://github.com/MdAjharulIslam/MilkySpylt",
+      webapp: "https://milky-spylt.vercel.app ",
+    },
+
     {
       id: 5,
       title: "E-Commerce App",
