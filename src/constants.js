@@ -321,7 +321,7 @@ export const SkillsInfo = [
         image: location,
       tags: [ "Node.js", "MongoDB", "Express","Socket.io"],
       github: "https://github.com/MdAjharulIslam/REALTIME_TRACkER",
-      webapp: " ",
+      webapp: "https://realtime-tra-ck-er.vercel.app/",
     },
     {
       id: 7,
@@ -343,7 +343,7 @@ export const SkillsInfo = [
         image: amazon,
       tags: [ "HTML", "CSS", "Javascript"],
       github: "https://github.com/MdAjharulIslam/Amazon",
-      webapp: " ",
+      webapp: "https://amazon-beta-ruby.vercel.app/ ",
     },
      {
       id: 9,
