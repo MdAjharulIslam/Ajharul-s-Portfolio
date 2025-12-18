@@ -34,7 +34,7 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
-
+import zustand from './assets/tech_logo/zustand.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -92,7 +92,7 @@ export const skill = [
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
-
+      { name: 'Zustand', logo: zustand },
 ]
 
 export const SkillsInfo = [
@@ -106,6 +106,7 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'TypeScript', logo: typescriptLogo },
       { name: 'Redux', logo: reduxLogo },
+      { name: 'Zustand', logo: zustand },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
@@ -241,7 +242,7 @@ export const SkillsInfo = [
       description:
         "Developed a full-stack car rental application with user authentication, real-time vehicle availability, booking system, secure payment integration, and an admin dashboard to manage cars, users, and bookings efficiently.",
         image: car,
-      tags: ["JavaScript", "React JS","Node JS", "Express JS", "MongoDb","JWT", "Rest API","Tailwind CSS","Motion"],
+      tags: ["JavaScript", "React JS","Node JS", "Express JS", "MongoDb","JWT","Context API","Bcrypt", "Rest API","Tailwind CSS","Motion"],
       github: "https://github.com/MdAjharulIslam/Motion-Rentals",
       webapp: "https://car-rental-rho-umber.vercel.app",
     },
@@ -251,7 +252,7 @@ export const SkillsInfo = [
       description:
         "A modern grocery e-commerce platform with a product catalog, user authentication, cart management, order tracking, and integrated online payments. Built using the MERN stack, it ensures a seamless shopping experience.",
         image: grocery,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Motion", "JavaScript"],
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Motion","Context API","JWT","Bcrypt", "JavaScript"],
       github: "https://github.com/MdAjharulIslam/EcoMart",
       webapp: "https://grocery-app-self.vercel.app",
     },
@@ -262,7 +263,7 @@ export const SkillsInfo = [
         "An intelligent blogging platform that leverages AI to help users write, optimize, and publish blogs effortlessly. Built with the MERN stack and integrated AI features for smart content generation, SEO insights, and user analytics.",
 
         image: blog,
-      tags: ["JavaScript", "React JS","Node JS", "Express JS", "MongoDb","JWT", "Rest API","Tailwind CSS","Motion"],
+      tags: ["JavaScript", "React JS","Node JS", "Express JS", "MongoDb","JWT", "Rest API","Tailwind CSS","Motion" , "Bcrypt","Context API"],
       github: "https://github.com/MdAjharulIslam/BlogStudio-AI",
       webapp: "https://blogstudio-ai-m2p9.onrender.com",
     },
@@ -273,7 +274,7 @@ export const SkillsInfo = [
         "Built a feature-rich real-time chat application with WebSocket technology for instant messaging. The platform supports user authentication, profile management, image sharing, and an intuitive UI for seamless communication.",
 
         image: chat,
-      tags: ["JavaScript", "React JS","Node JS", "Express JS", "MongoDb","JWT", "Rest API","Tailwind CSS","Motion","Daisy UI", "Socket.io"],
+      tags: ["JavaScript", "React JS","Node JS", "Express JS", "MongoDb","JWT", "Rest API","Tailwind CSS","Motion","Daisy UI", "Socket.io", "Zustand"],
       github: "https://github.com/MdAjharulIslam/Real-Time-Chat-App",
       webapp: "https://real-time-chat-app-3jvq.onrender.com",
     },
