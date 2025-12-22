@@ -3,6 +3,9 @@ import { projects } from "../../constants";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
+  const [showAll, setShowAll] = useState(false);
+
+  const visibleProjects = showAll ? projects : projects.slice(0, 6);
 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
@@ -29,7 +32,7 @@ const Work = () => {
 
       {/* Projects Grid */}
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
+        {visibleProjects.map((project) => (
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
@@ -62,6 +65,18 @@ const Work = () => {
             </div>
           </div>
         ))}
+
+        {/* See More Button */}
+        {!showAll && projects.length > 6 && (
+          <div className="col-span-full flex justify-center mt-12">
+            <button
+              onClick={() => setShowAll(true)}
+              className="bg-purple-600 hover:bg-purple-800 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-2xl hover:shadow-purple-500/50 transition-all duration-300"
+            >
+              See More Projects
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Modal Container */}
