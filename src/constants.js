@@ -57,6 +57,7 @@ import journalism from './assets/work_logo/Journalism.jpg';
 import location from './assets/work_logo/location_t.png';
 import netflix from './assets/work_logo/netflix.jpg';
 import spylt from './assets/work_logo/spylt.png'
+import atlas from './assets/work_logo/atlas.png'
 export const skill = [
       { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
@@ -322,6 +323,16 @@ export const SkillsInfo = [
       tags: [ "Node.js", "MongoDB", "Express","Socket.io"],
       github: "https://github.com/MdAjharulIslam/REALTIME_TRACkER",
       webapp: "https://realtime-tra-ck-er.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "WorldAtlas",
+      description:
+        "WorldAtlas is an interactive web app that lets users explore countries, capitals, flags, and key information. Built with [your tech stack, e.g., React], it demonstrates skills in API integration, responsive UI, and data visualization.",
+        image: atlas,
+      tags: [ "API", "Search Feature", "CSS", "Javascript","React"],
+      github: "https://github.com/MdAjharulIslam/worldAtlas",
+      webapp: "https://world-atlas-piaw.vercel.app ",
     },
     {
       id: 7,
