@@ -265,7 +265,7 @@ export const SkillsInfo = [
         "SalonHub is a modern salon booking web application that allows users to pre-book salon services and preferred time slots seamlessly. It features secure user authentication, booking history, and a powerful admin dashboard for managing services and orders, helping save customers’ time while making salon operations more efficient and organized.",
       image: salon,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Context API","JWT","Bcrypt", "TypeScript"],
-      github: "https://salonhub-lac.vercel.app",
+      github: "https://github.com/MdAjharulIslam/SalonHub",
       webapp: "https://salonhub-lac.vercel.app",
     },
 
