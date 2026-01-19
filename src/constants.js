@@ -58,6 +58,7 @@ import location from './assets/work_logo/location_t.png';
 import netflix from './assets/work_logo/netflix.jpg';
 import spylt from './assets/work_logo/spylt.png'
 import atlas from './assets/work_logo/atlas.png'
+import salon form './assets/work_logo/salon.png'
 export const skill = [
       { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
@@ -257,6 +258,17 @@ export const SkillsInfo = [
       github: "https://github.com/MdAjharulIslam/EcoMart",
       webapp: "https://grocery-app-self.vercel.app",
     },
+    {
+      id: 1,
+      title: "SalonHub",
+      description:
+        "SalonHub is a modern salon booking web application that allows users to pre-book salon services and preferred time slots seamlessly. It features secure user authentication, booking history, and a powerful admin dashboard for managing services and orders, helping save customers’ time while making salon operations more efficient and organized.",
+      image: salon,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Context API","JWT","Bcrypt", "TypeScript"],
+      github: "https://salonhub-lac.vercel.app",
+      webapp: "https://salonhub-lac.vercel.app",
+    },
+
     {
       id: 2,
       title: "BlogStudio-AI",
