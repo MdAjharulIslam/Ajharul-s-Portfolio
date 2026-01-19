@@ -58,7 +58,7 @@ import location from './assets/work_logo/location_t.png';
 import netflix from './assets/work_logo/netflix.jpg';
 import spylt from './assets/work_logo/spylt.png'
 import atlas from './assets/work_logo/atlas.png'
-import salon form './assets/work_logo/salon.png'
+import salon from './assets/work_logo/salon.png'
 export const skill = [
       { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
