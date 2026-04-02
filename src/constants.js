@@ -59,6 +59,8 @@ import netflix from './assets/work_logo/netflix.jpg';
 import spylt from './assets/work_logo/spylt.png'
 import atlas from './assets/work_logo/atlas.png'
 import salon from './assets/work_logo/salon.png'
+import myshop from './assets/work_logo/myshop.png'
+
 export const skill = [
       { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
@@ -269,6 +271,16 @@ export const SkillsInfo = [
       webapp: "https://salonhub-lac.vercel.app",
     },
 
+ {
+      id: 1,
+      title: "MyShop",
+      description:
+        "MyShop is a production-ready full-stack e-commerce platform built with a modern MERN-inspired stack. It demonstrates real-world architecture, secure stock handling, and role-based admin management.",
+        image: myshop,
+      tags: ["NEXT JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Context API","JWT","Bcrypt",],
+      github: "https://github.com/MdAjharulIslam/MyShop_E-commerce",
+      webapp: "https://e-commerce-assignment-tau.vercel.app",
+    },
     {
       id: 2,
       title: "BlogStudio-AI",
