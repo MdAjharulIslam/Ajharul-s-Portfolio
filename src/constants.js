@@ -35,6 +35,9 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import zustand from './assets/tech_logo/zustand.png';
+import laravel from './assets/tech_logo/laravel.png'
+import php from './assets/tech_logo/php.png'
+import java from './assets/tech_logo/java.png'
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -64,6 +67,9 @@ import myshop from './assets/work_logo/myshop.png'
 export const skill = [
       { name: 'HTML', logo: htmlLogo }, 
       { name: 'CSS', logo: cssLogo },
+      { name: 'Laravel', logo: laravel },
+      { name: 'PHP', logo: php},
+      { name: 'Java', logo: java},
       { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
@@ -97,6 +103,8 @@ export const skill = [
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
       { name: 'Zustand', logo: zustand },
+      
+
 ]
 
 export const SkillsInfo = [
@@ -126,6 +134,7 @@ export const SkillsInfo = [
     
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
+      { name: 'Laravel', logo: laravel },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
@@ -134,6 +143,7 @@ export const SkillsInfo = [
       { name: 'Socket.io', logo: socket },
       { name: 'Oauth', logo: Oauth },
       { name: 'JWT', logo: jwt },
+      { name: 'PHP', logo: php },
     ],
   },
   {
@@ -143,6 +153,8 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'PHP', logo: php},
+        { name: 'Java', logo: java}
     ],
   },
   {
