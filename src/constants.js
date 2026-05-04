@@ -280,7 +280,7 @@ export const SkillsInfo = [
       image: salon,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS","Context API","JWT","Bcrypt", "TypeScript"],
       github: "https://github.com/MdAjharulIslam/SalonHub",
-      webapp: "https://salonhub-lac.vercel.app",
+      webapp: "https://salon-hub-lake.vercel.app",
     },
 
  {
